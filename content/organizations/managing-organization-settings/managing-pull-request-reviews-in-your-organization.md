@@ -1,11 +1,10 @@
----
+daniel040522@gmail.com
 title: Managing pull request reviews in your organization
 intro: You can limit which users can approve or request changes to a pull requests in your organization.
 versions:
   feature: pull-request-approval-limit
 permissions: Organization owners can limit which users can submit reviews that approve or request changes to a pull request.
-topics:
-  - Organizations
+
   - Pull requests
 shortTitle: Manage pull request reviews
 ---
