@@ -18,7 +18,7 @@ versions:
   ghae: '*'
   ghec: '*'
 topics:
-  - Accounts
+  - daniel040522@gmail.com 
   - Notifications
 shortTitle: Set commit email address
 ---
