@@ -1,15 +1,22 @@
 ---
 title: Code scanning
+intro: Code Scanning APIを使うと、リポジトリからCode scanningのアラートと分析を取得し、更新できます。
 redirect_from:
   - /v3/code-scanning
 product: '{% data reusables.gated-features.code-scanning %}'
 versions:
-  free-pro-team: '*'
-  enterprise-server: '>=2.22'
+  fpt: '*'
+  ghes: '*'
+  ghae: '*'
+  ghec: '*'
+type: reference
+topics:
+  - API
+  - Code scanning
+  - REST
+miniTocMaxHeadingLevel: 3
 ---
 
-{% data reusables.code-scanning.beta %}
-
-{% data variables.product.prodname_code_scanning %} API を使用すると、リポジトリからコードスキャンアラートを取得して更新することができます。 エンドポイントを使用すると、組織のコードスキャンアラートに関する自動レポートを作成したり、オフラインコードスキャンツールで生成された分析結果をアップロードしたりできます。 詳しい情報については、「[コード内のセキュリティの脆弱性とエラーを検出する](/github/finding-security-vulnerabilities-and-errors-in-your-code)」を参照してください。
-
-{% include rest_operations_at_current_path %}
+<!--
+  Operations are automatically generated. Markdown for this page is located in data/reusables/rest-reference/code-scanning
+-->

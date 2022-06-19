@@ -1,15 +1,22 @@
 ---
 title: 代码扫描
+intro: 代码扫描 API 可让您从仓库检索和更新代码扫描警报和分析。
 redirect_from:
   - /v3/code-scanning
 product: '{% data reusables.gated-features.code-scanning %}'
 versions:
-  free-pro-team: '*'
-  enterprise-server: '>=2.22'
+  fpt: '*'
+  ghes: '*'
+  ghae: '*'
+  ghec: '*'
+type: reference
+topics:
+  - API
+  - Code scanning
+  - REST
+miniTocMaxHeadingLevel: 3
 ---
 
-{% data reusables.code-scanning.beta %}
-
-{% data variables.product.prodname_code_scanning %} API 可让您从仓库检索和更新代码扫描警告。 您可以使用端点为组织中的代码扫描警报创建自动化报告，或者使用离线代码扫描工具生成上传分析结果。 更多信息请参阅“[查找代码中的安全漏洞和错误](/github/finding-security-vulnerabilities-and-errors-in-your-code)”。
-
-{% include rest_operations_at_current_path %}
+<!--
+  Operations are automatically generated. Markdown for this page is located in data/reusables/rest-reference/code-scanning
+-->
